@@ -17,7 +17,7 @@ const scrolling = (event) => {
     console.log("sampe bawah");
   }
 }; 
-</script>    
+</script>     
 
 <template>
   <div class="box row mx-4 my-4 gap-3 d-flex justify-content-between pagination" v-on:scroll="scrolling">
