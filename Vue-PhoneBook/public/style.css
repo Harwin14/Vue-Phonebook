@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 50px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: larger;
+  font-weight: 900;
+  background-color: #eef0fc;
+  
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  border-radius: 10px;
+}
+.kartu {
+  height: 180px;
+  width: 300px;
+  animation: changeBg 10s infinite  alternate linear;
+  -webkit-animation: changeBg 10s infinite  alternate linear;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+@keyframes changeBg {
+  0% {
+    background: #e9463a;
+  }
+  25% {
+    background: #A5FECB;
+  }
+  50% {
+    background: #20BDFF;
+  }
+  75% {
+    background: #0f9edb;
+  }
+  100% {
+    background: #5433FF;
+  }
+}
+h1 {
+  background: -webkit-linear-gradient(0deg,#000000,#434343);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 80px;
+  font-weight:900;
+
+}
+
+.btn-card{
+  width: 100%;
+  border: solid 2px black;
+}
+.bold{
+  border: solid 2px black;
+
+}
+.box{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  justify-content: start;
+  
+}
+.card-header{
+  border-bottom: solid 2px black;
+  background-image: linear-gradient(to right,#A5FECB, #20BDFF,#5433FF);
+}
+.form-control{
+  border: solid 2px rgb(46, 42, 42);
+}
+.card{
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+h3{
+  font-weight: 800;
+}
+.font-btn{
+  font-weight: 800;
+  font-size: 200;
+  color: black
+}
+.pagination{
+  overflow-y: scroll;
+  height: 360px;
+}
