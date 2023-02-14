@@ -16,7 +16,7 @@ const scrolling = (event) => {
     emit("pagination");
     console.log("sampe bawah");
   }
-};
+}; 
 </script>    
 
 <template>
