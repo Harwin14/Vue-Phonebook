@@ -23,4 +23,4 @@ const scrolling = (event) => {
     <ContactItem v-for="contact in contacts" :contact="contact" />
   </div>
 </template>  
-  
+   
