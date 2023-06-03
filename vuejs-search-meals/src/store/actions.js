@@ -17,4 +17,4 @@ export function searchMealsByIngredient({ commit }, ing) {
         commit("setMealsByIngredient", data.meals);
     });
 }
-   
+    
