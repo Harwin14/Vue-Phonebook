@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white shadow-xl rounded-xl">
+    <div class="bg-white shadow-xl rounded-xl hover:scale-105 transition-all">
         <router-link :to="{ name: 'mealDetails', params: { id: meal.idMeal } }">
             <img
                 :src="meal.strMealThumb"
@@ -10,11 +10,10 @@
         <div class="p-3">
             <h3 class="font-bold">{{ meal.strMeal }}</h3>
             <p class="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reiciendis aut rerum nesciunt, quia quis, similique.
+               {{ $filters.truncateWords(meal.strIntructions, 20) }}
             </p>
             <div class="flex justify-between">
-                <YoutubeButton :href="meal.strYoutube"> YouTube </YoutubeButton>
+                <YoutubeButton :href="meal.strYoutube"/> 
             </div>
         </div>
     </div>

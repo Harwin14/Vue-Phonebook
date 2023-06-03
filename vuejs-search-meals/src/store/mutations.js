@@ -5,7 +5,11 @@ export function setSearchedMeals(state, meals) {
 export function setMealsByLetter(state, meals) {
     state.mealsByLetter = meals || []
 }
+
 export function setMealsByIngredient(state, meals) {
-    state.mealsByIngredient = meals || "tidak"
+    state.mealsByIngredient = meals || []
 }  
 
+export function setIngredient(state, ingredient) {
+    state.ingredient = ingredient 
+}  
